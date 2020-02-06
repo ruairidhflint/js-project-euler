@@ -7,7 +7,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
   .) Multiples of 5 all end in 0 or 5. 
   .) Multiples of 3 can end in any number
 
-  Idea 1 - Loop through all numbers between 1 and 1000. If number is divisible by either 3 or 5, add it to answer number. 
+  Idea 1 - Loop through all numbers between 1 and 1000. If number is divisible by either 3 or 5, add it to answer. 
   */
 
  let answer = 0;

@@ -12,8 +12,6 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
     - try and simplify to a single operation
 */
 
-// create fibonacci sequence 
-
 function fibonacci(max) {
     const fibArr = [1, 2];
 
@@ -23,6 +21,7 @@ function fibonacci(max) {
         fibArr.push(newNum);
         }
         else {
+            // stops loop from running once condition has been met.
             break;
         }
     }
